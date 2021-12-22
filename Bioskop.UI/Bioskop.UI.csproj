@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{68DFAEE8-89F1-4D76-A35B-C46F2378BE08}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Bioskop.UI</RootNamespace>
+    <AssemblyName>Bioskop.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Filmovi\FrmAzurirajFilm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Filmovi\FrmAzurirajFilm.Designer.cs">
+      <DependentUpon>FrmAzurirajFilm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Filmovi\FrmDodajFilm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Filmovi\FrmDodajFilm.Designer.cs">
+      <DependentUpon>FrmDodajFilm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Filmovi\KreirajPanelZaFilmove.cs" />
+    <Compile Include="Admin\FrmAdminPocetnaStrana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\FrmAdminPocetnaStrana.Designer.cs">
+      <DependentUpon>FrmAdminPocetnaStrana.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Korisnici\FrmAzurirajKorisnika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Korisnici\FrmAzurirajKorisnika.Designer.cs">
+      <DependentUpon>FrmAzurirajKorisnika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Korisnici\KreirajPanelZaKorisnike.cs" />
+    <Compile Include="Admin\Projekcije\FrmAzurirajProjekciju.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Projekcije\FrmAzurirajProjekciju.Designer.cs">
+      <DependentUpon>FrmAzurirajProjekciju.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Projekcije\FrmDodajProjekciju.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Projekcije\FrmDodajProjekciju.Designer.cs">
+      <DependentUpon>FrmDodajProjekciju.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Projekcije\KreirajPanelZaProjekcije.cs" />
+    <Compile Include="Admin\Sale\FrmAzurirajSalu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Sale\FrmAzurirajSalu.Designer.cs">
+      <DependentUpon>FrmAzurirajSalu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Sale\FrmDodajSalu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Sale\FrmDodajSalu.Designer.cs">
+      <DependentUpon>FrmDodajSalu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Sale\KreirajPanelZaSale.cs" />
+    <Compile Include="Korisnik\FrmKorisnikPocetna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Korisnik\FrmKorisnikPocetna.Designer.cs">
+      <DependentUpon>FrmKorisnikPocetna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Korisnik\PravljenjeRezervacije\KreirajPanelZaPrikazRezervacija.cs" />
+    <Compile Include="Korisnik\PravljenjeRezervacije\KreirajPanelZaRezervaciju.cs" />
+    <Compile Include="LogIn\FrmLogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn\FrmLogIn.Designer.cs">
+      <DependentUpon>FrmLogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\FrmRegistracija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn\FrmRegistracija.Designer.cs">
+      <DependentUpon>FrmRegistracija.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Admin\Filmovi\FrmAzurirajFilm.resx">
+      <DependentUpon>FrmAzurirajFilm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Filmovi\FrmDodajFilm.resx">
+      <DependentUpon>FrmDodajFilm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\FrmAdminPocetnaStrana.resx">
+      <DependentUpon>FrmAdminPocetnaStrana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Korisnici\FrmAzurirajKorisnika.resx">
+      <DependentUpon>FrmAzurirajKorisnika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Projekcije\FrmAzurirajProjekciju.resx">
+      <DependentUpon>FrmAzurirajProjekciju.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Projekcije\FrmDodajProjekciju.resx">
+      <DependentUpon>FrmDodajProjekciju.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Sale\FrmAzurirajSalu.resx">
+      <DependentUpon>FrmAzurirajSalu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Sale\FrmDodajSalu.resx">
+      <DependentUpon>FrmDodajSalu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Korisnik\FrmKorisnikPocetna.resx">
+      <DependentUpon>FrmKorisnikPocetna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn\FrmLogIn.resx">
+      <DependentUpon>FrmLogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn\FrmRegistracija.resx">
+      <DependentUpon>FrmRegistracija.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bioskop.Domen\Bioskop.Domen.csproj">
+      <Project>{8a39e00f-2381-4af6-b337-7a101932b82f}</Project>
+      <Name>Bioskop.Domen</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bioskop.Servisi\Bioskop.Servisi.csproj">
+      <Project>{9ebddd8f-631f-421d-ad31-5d6998ee232c}</Project>
+      <Name>Bioskop.Servisi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bioskop.Util\Bioskop.Util.csproj">
+      <Project>{4f6416ae-0394-44fd-8fe8-edd2cd88ce53}</Project>
+      <Name>Bioskop.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

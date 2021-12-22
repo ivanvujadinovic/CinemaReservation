@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Servisi\bin\Debug\Bioskop.Servisi.dll
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Servisi\bin\Debug\Bioskop.Servisi.pdb
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Servisi\obj\Debug\Bioskop.Servisi.csprojAssemblyReference.cache
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Servisi\obj\Debug\Bioskop.Servisi.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Servisi\obj\Debug\Bioskop.Servisi.dll
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Servisi\obj\Debug\Bioskop.Servisi.pdb
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Servisi\bin\Debug\Bioskop.Domen.dll
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Servisi\bin\Debug\Bioskop.Domen.pdb
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Servisi\obj\Debug\Bioskop.Servisi.csproj.CopyComplete
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Servisi\bin\Debug\Bioskop.DAL.dll
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Servisi\bin\Debug\Bioskop.Util.dll
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Servisi\bin\Debug\Bioskop.DAL.pdb
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Servisi\bin\Debug\Bioskop.Util.pdb
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Servisi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Servisi\bin\Debug\Newtonsoft.Json.xml

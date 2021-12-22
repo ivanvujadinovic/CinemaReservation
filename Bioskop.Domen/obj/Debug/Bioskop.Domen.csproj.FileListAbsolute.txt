@@ -1,0 +1,6 @@
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Domen\bin\Debug\Bioskop.Domen.dll
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Domen\bin\Debug\Bioskop.Domen.pdb
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Domen\obj\Debug\Bioskop.Domen.csprojAssemblyReference.cache
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Domen\obj\Debug\Bioskop.Domen.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Domen\obj\Debug\Bioskop.Domen.dll
+C:\Users\WINDOWS 10\source\repos\PrviProjekatTVP\Bioskop.Domen\obj\Debug\Bioskop.Domen.pdb
